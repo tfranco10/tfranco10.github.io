@@ -20,7 +20,7 @@
 
     .navbar {
       display:block;
-      background-color: #313732;
+      background-color: black;
       height:80px;
       margin:0 auto;
       min-width:600px;
@@ -33,6 +33,7 @@
       text-decoration: none;
       float:left;
       height: 20px;
+      
     }
 
     .navigation li a {
