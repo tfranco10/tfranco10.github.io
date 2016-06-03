@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <canvas id="myCanvas">
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+    <script type="text/javascript" src="main.js"></script></canvas>
+  <!-- TODO: Update Title -->
+  <title>Zayn Malik</title>
+  
+  <!-- Include the following stylesheet (controls sytle of navbar and footer) -->
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+  <!-- TODO: Change CSS colors and image so that it matches your desired theme -->
+  <style>
+    body {
+      font-family: Verdana;
+      color:white;
+      background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ZaynWWATchile_Cropped.jpg/249px-ZaynWWATchile_Cropped.jpg");
+    }
+    
+    /* TODO: Make sure the height of your page is big enough */
+    .main {
+      clear: left;
+      min-width: 600px;
+      max-width: 800px;
+      height:750px;
+      margin:0 auto;
+    }
+
+    .main-page{
+      display: block;
+      float:right;
+      background-color:#000000;
+      height:100%;
+      width:75%;
+      box-sizing:border-box;
+    }
+    .sidebar {
+      box-sizing:border-box;
+      padding:10px;
+      float:left;
+      width:25%;
+      height:100%;
+      background-color: #000026;
+    }
+    
+
+    .sidebar-nav{
+      margin: 15px -30px;
+      color:#FFFFFF;
+    }
+
+    .sidebar li {
+      margin: 20px 5px 0px;
+    }
+
+    .sidebar ul ul li{
+      margin: 10px 15px 0px;
+      font-size:0.8em;
+    }
+
+    .sidebar ul ul li a{
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+
+    .sidebar ul ul li a:hover{
+      color: #F26101;
+    }
+
+    .image-container {
+      height:300px;
+      width:100%;
+      position: relative;
+      /* TODO: Update the following image */
+      background-image: url("https://media.giphy.com/media/l2JIkZjnd7Li8uHfy/giphy.gif");
+      background-repeat: no-repeat;
+      background-size: 100% 300px;
+    }
+
+    .main-title {
+      margin: 1px 15px;
+      font-size: 50px;
+      text-align:center;
+    }
+
+    .left-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:0px;
+    }
+
+    .right-panel{
+      box-sizing: border-box;
+      width: 50%;
+      float:left;
+      padding:0px;
+    }
+
+    .sub-title {
+      text-align: center;
+    }
+
+    .text-info {
+      font-size: 1em;
+      margin: 10px;
+    }
+
+  </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navigation">
+            <!-- TODO: Ensure that your Navbar is correct -->
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="./musicVideos.html">Music Videos</a></li>
+             <li><a href="http://zaynmalikstore.com/">Merch</a></li>
+             <li><a href="./march25.html">March 25</a></li>
+             <li><a href="./memes.html">Memes</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <ul class="sidebar-nav">
+                <!-- TODO: Update the recent projects -->
+              
+               <h3><strong>GOTTA ZAYN</strong></h3>
+           <ul> 
+                
+                <strong>Follow ZAYN on</strong>
+                 <li><a href="https://www.instagram.com/zayn/?hl=en" target="_blank"> Instagram</a></li>
+                 <li><a href="https://twitter.com/zaynmalik?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a></li>
+                 <li><a href="https://www.facebook.com/zayn/" target="_blank">Facebook</a></li>  
+                  <br>
+                 <h3><strong>2010</strong></h3>
+                <li><a href="./xFactor.html">X Factor</a></li>
+                <li><a href="./videoDiaries.html">Video Diaries</a></li>
+                <li><a href="./XF_Performances.html">X-Factor Performances</a></li>
+                <h3><strong>ZAYN</strong></h3>
+                <li><a href="./art.html">Art</a></li>
+                <li><a href="https://www.facebook.com/zayn/photos/?tab=album&album_id=456598644532575" target="_blank"> Fan Art</a></li>
+                <li><a href="./gifs.html">Gifs</a></li>
+                <li><a href="./drama.html">Drama</a></li>
+            </ul>
+        </div>
+        <div class="main-page">
+            <div class="image-container">
+           <canvas id="myCanvas"></canvas>
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+            </div>    
+            <!-- TODO: Update the page title -->
+            <h1 class="main-title">ZAYN</h1>
+            <!-- TODO: Update the left-panel and right-panel with info from your 90s website -->
+            <div class="left-panel">
+              
+                
+                  <p class="text-info"> <iframe src="https://embed.spotify.com/?uri=spotify:album:5amj9zNeZ3B2EdpBgXrOZ0" width="280" height="350" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+            <div class="right-panel">
+                <h2 class="sub-title"> Zayn Malik</h2>
+                <p class="text-info"> Zayn was born January 12, 1993 in Bradford, United Kingdom. He was born Zain Javadd Malik to Trisha and Yaser Malik. He has three sisters:
+                Doniya, Waliyha, and Safaa. He grew up a mixed race , Pakistani-English Muslim, in a british town which caused him to move schools alot. In high school
+                he found himself interested in performing arts and being on stage, including his part as Danny Zuko in his high school production of Grease.
+         
+            </div>
+            
+            </div>
+        <!-- TODO: Add anything you want to the footer -->
+        <div class="footer">
+        </div>
+    </div>
